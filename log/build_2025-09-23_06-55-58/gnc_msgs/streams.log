@@ -1,0 +1,231 @@
+[0.023s] Invoking command in '/home/nicks1811/muas_ros_workspace/build/gnc_msgs': /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/gnc_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/gnc_msgs
+[0.583s] -- The C compiler identification is GNU 11.4.0
+[1.207s] -- The CXX compiler identification is GNU 11.4.0
+[1.547s] -- Detecting C compiler ABI info
+[1.857s] -- Detecting C compiler ABI info - done
+[1.869s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.873s] -- Detecting C compile features
+[1.874s] -- Detecting C compile features - done
+[1.882s] -- Detecting CXX compiler ABI info
+[2.152s] -- Detecting CXX compiler ABI info - done
+[2.163s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.163s] -- Detecting CXX compile features
+[2.164s] -- Detecting CXX compile features - done
+[2.181s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.400s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.597s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.607s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.620s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.155s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.225s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.713s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.054s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.726s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.732s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.137s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.137s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.138s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.138s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[5.167s] -- Found PythonExtra: .so  
+[5.339s] -- Configuring done
+[5.406s] -- Generating done
+[5.409s] [33mCMake Warning:
+[5.409s]   Manually-specified variables were not used by the project:
+[5.409s] 
+[5.409s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[5.409s] 
+[5.409s] [0m
+[5.423s] -- Build files have been written to: /home/nicks1811/muas_ros_workspace/build/gnc_msgs
+[5.434s] Invoked command in '/home/nicks1811/muas_ros_workspace/build/gnc_msgs' returned '0': /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/gnc_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/gnc_msgs
+[5.439s] Invoking command in '/home/nicks1811/muas_ros_workspace/build/gnc_msgs': /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/gnc_msgs -- -j12 -l12
+[5.481s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.491s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.503s] [  6%] Built target ament_cmake_python_copy_gnc_msgs
+[5.867s] running egg_info
+[5.868s] creating gnc_msgs.egg-info
+[5.869s] writing gnc_msgs.egg-info/PKG-INFO
+[5.869s] writing dependency_links to gnc_msgs.egg-info/dependency_links.txt
+[5.870s] writing top-level names to gnc_msgs.egg-info/top_level.txt
+[5.870s] writing manifest file 'gnc_msgs.egg-info/SOURCES.txt'
+[5.877s] reading manifest file 'gnc_msgs.egg-info/SOURCES.txt'
+[5.878s] writing manifest file 'gnc_msgs.egg-info/SOURCES.txt'
+[5.915s] [  6%] Built target gnc_msgs__cpp
+[5.924s] [  6%] Built target ament_cmake_python_build_gnc_msgs_egg
+[5.929s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.930s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.933s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.941s] [ 19%] [32mBuilding C object CMakeFiles/gnc_msgs__rosidl_generator_c.dir/rosidl_generator_c/gnc_msgs/msg/detail/trajectory_point__functions.c.o[0m
+[6.129s] [ 22%] [32m[1mLinking C shared library libgnc_msgs__rosidl_generator_c.so[0m
+[6.316s] [ 22%] Built target gnc_msgs__rosidl_generator_c
+[6.320s] [ 25%] [32mBuilding CXX object CMakeFiles/gnc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gnc_msgs/msg/trajectory_point__type_support.cpp.o[0m
+[6.332s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.334s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.341s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.350s] [ 38%] [32mBuilding CXX object CMakeFiles/gnc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gnc_msgs/msg/detail/trajectory_point__type_support.cpp.o[0m
+[6.389s] [ 41%] [32mBuilding CXX object CMakeFiles/gnc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gnc_msgs/msg/detail/dds_fastrtps/trajectory_point__type_support.cpp.o[0m
+[6.897s] [ 45%] [32mBuilding CXX object CMakeFiles/gnc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gnc_msgs/msg/trajectory_point__type_support.cpp.o[0m
+[6.911s] [ 48%] [32mBuilding CXX object CMakeFiles/gnc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gnc_msgs/msg/detail/trajectory_point__type_support_c.cpp.o[0m
+[6.912s] [ 51%] [32mBuilding C object CMakeFiles/gnc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gnc_msgs/msg/detail/trajectory_point__type_support.c.o[0m
+[6.975s] [ 54%] [32m[1mLinking CXX shared library libgnc_msgs__rosidl_typesupport_c.so[0m
+[6.998s] [ 58%] [32m[1mLinking C shared library libgnc_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.038s] [ 61%] [32m[1mLinking CXX shared library libgnc_msgs__rosidl_typesupport_cpp.so[0m
+[7.190s] [ 61%] Built target gnc_msgs__rosidl_typesupport_c
+[7.205s] [ 61%] Built target gnc_msgs__rosidl_typesupport_introspection_c
+[7.209s] [ 64%] [32m[1mLinking CXX shared library libgnc_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.238s] [ 64%] Built target gnc_msgs__rosidl_typesupport_cpp
+[7.338s] [ 67%] [32m[1mLinking CXX shared library libgnc_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.455s] [ 67%] Built target gnc_msgs__rosidl_typesupport_fastrtps_cpp
+[7.534s] [ 67%] Built target gnc_msgs__rosidl_typesupport_introspection_cpp
+[7.551s] [ 70%] [32m[1mLinking CXX shared library libgnc_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.745s] [ 70%] Built target gnc_msgs__rosidl_typesupport_fastrtps_c
+[7.769s] [ 70%] Built target gnc_msgs
+[7.792s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.177s] [ 74%] Built target gnc_msgs__py
+[8.200s] [ 77%] [32mBuilding C object CMakeFiles/gnc_msgs__rosidl_generator_py.dir/rosidl_generator_py/gnc_msgs/msg/_trajectory_point_s.c.o[0m
+[8.419s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/gnc_msgs/libgnc_msgs__rosidl_generator_py.so[0m
+[8.514s] [ 80%] Built target gnc_msgs__rosidl_generator_py
+[8.540s] [ 87%] [32mBuilding C object CMakeFiles/gnc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.541s] [ 87%] [32mBuilding C object CMakeFiles/gnc_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[8.541s] [ 90%] [32mBuilding C object CMakeFiles/gnc_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.681s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/gnc_msgs/gnc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.688s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/gnc_msgs/gnc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.697s] [100%] [32m[1mLinking C shared library rosidl_generator_py/gnc_msgs/gnc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.774s] [100%] Built target gnc_msgs__rosidl_typesupport_c__pyext
+[8.778s] [100%] Built target gnc_msgs__rosidl_typesupport_introspection_c__pyext
+[8.816s] [100%] Built target gnc_msgs__rosidl_typesupport_fastrtps_c__pyext
+[8.830s] Invoked command in '/home/nicks1811/muas_ros_workspace/build/gnc_msgs' returned '0': /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/gnc_msgs -- -j12 -l12
+[8.842s] Invoking command in '/home/nicks1811/muas_ros_workspace/build/gnc_msgs': /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/gnc_msgs
+[8.852s] -- Install configuration: ""
+[8.853s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/ament_index/resource_index/rosidl_interfaces/gnc_msgs
+[8.853s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs
+[8.853s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg
+[8.854s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail
+[8.854s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__struct.h
+[8.854s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__type_support.h
+[8.855s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__functions.h
+[8.855s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__functions.c
+[8.855s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.855s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/trajectory_point.h
+[8.856s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/library_path.sh
+[8.856s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/library_path.dsv
+[8.856s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_generator_c.so
+[8.857s] -- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_generator_c.so" to ""
+[8.857s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs
+[8.857s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg
+[8.858s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail
+[8.858s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_c.h
+[8.858s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.858s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_fastrtps_c.so
+[8.858s] -- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[8.859s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs
+[8.859s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg
+[8.859s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail
+[8.859s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_c.h
+[8.860s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__type_support.c
+[8.860s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.860s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_introspection_c.so
+[8.860s] -- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.860s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_c.so
+[8.860s] -- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_c.so" to ""
+[8.860s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs
+[8.861s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg
+[8.861s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail
+[8.861s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__type_support.hpp
+[8.861s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__builder.hpp
+[8.861s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__struct.hpp
+[8.862s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__traits.hpp
+[8.862s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.862s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/trajectory_point.hpp
+[8.863s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs
+[8.863s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg
+[8.863s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.863s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail
+[8.863s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[8.863s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/dds_fastrtps
+[8.864s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.864s] -- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.865s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs
+[8.865s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg
+[8.865s] -- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail
+[8.865s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__type_support.cpp
+[8.865s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[8.866s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_introspection_cpp.so
+[8.866s] -- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.866s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_cpp.so
+[8.867s] -- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_cpp.so" to ""
+[8.867s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/pythonpath.sh
+[8.867s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/pythonpath.dsv
+[8.867s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs-0.0.0-py3.10.egg-info
+[8.867s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[8.868s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[8.868s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.869s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.869s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs
+[8.869s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.869s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.869s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.869s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/__init__.py
+[8.870s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.870s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/libgnc_msgs__rosidl_generator_py.so
+[8.871s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_c.c
+[8.871s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg
+[8.871s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg/_trajectory_point_s.c
+[8.872s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg/_trajectory_point.py
+[8.872s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg/__init__.py
+[8.872s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.913s] Listing '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs'...
+[8.914s] Compiling '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/__init__.py'...
+[8.914s] Listing '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg'...
+[8.914s] Compiling '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg/__init__.py'...
+[8.914s] Compiling '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg/_trajectory_point.py'...
+[8.920s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.920s] -- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.921s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.921s] -- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.922s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.922s] -- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[8.922s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_generator_py.so
+[8.922s] -- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_generator_py.so" to ""
+[8.923s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/msg/TrajectoryPoint.idl
+[8.923s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/msg/TrajectoryPoint.msg
+[8.924s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/ament_index/resource_index/package_run_dependencies/gnc_msgs
+[8.924s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/ament_index/resource_index/parent_prefix_path/gnc_msgs
+[8.924s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/ament_prefix_path.sh
+[8.924s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/ament_prefix_path.dsv
+[8.925s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/path.sh
+[8.928s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/path.dsv
+[8.928s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/local_setup.bash
+[8.928s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/local_setup.sh
+[8.928s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/local_setup.zsh
+[8.928s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/local_setup.dsv
+[8.928s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/package.dsv
+[8.929s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/ament_index/resource_index/packages/gnc_msgs
+[8.930s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_generator_cExport.cmake
+[8.930s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.930s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.930s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.930s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.930s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.930s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_cExport.cmake
+[8.932s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.932s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_generator_cppExport.cmake
+[8.933s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.933s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.933s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.933s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.933s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_cppExport.cmake
+[8.934s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.935s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_generator_pyExport.cmake
+[8.935s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.935s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/rosidl_cmake-extras.cmake
+[8.937s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.937s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.937s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.938s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.938s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.939s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.939s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgsConfig.cmake
+[8.940s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgsConfig-version.cmake
+[8.940s] -- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/package.xml
+[8.945s] Invoked command in '/home/nicks1811/muas_ros_workspace/build/gnc_msgs' returned '0': /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/gnc_msgs

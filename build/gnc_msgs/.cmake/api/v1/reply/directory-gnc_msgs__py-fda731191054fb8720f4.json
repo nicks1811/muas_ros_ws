@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "gnc_msgs__py",
+		"source" : "/home/nicks1811/muas_ros_workspace/build/gnc_msgs/gnc_msgs__py"
+	}
+}

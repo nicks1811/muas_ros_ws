@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/gnc_trajectory/gnc_trajectory.egg-info
+writing ../../build/gnc_trajectory/gnc_trajectory.egg-info/PKG-INFO
+writing dependency_links to ../../build/gnc_trajectory/gnc_trajectory.egg-info/dependency_links.txt
+writing entry points to ../../build/gnc_trajectory/gnc_trajectory.egg-info/entry_points.txt
+writing requirements to ../../build/gnc_trajectory/gnc_trajectory.egg-info/requires.txt
+writing top-level names to ../../build/gnc_trajectory/gnc_trajectory.egg-info/top_level.txt
+writing manifest file '../../build/gnc_trajectory/gnc_trajectory.egg-info/SOURCES.txt'
+reading manifest file '../../build/gnc_trajectory/gnc_trajectory.egg-info/SOURCES.txt'
+writing manifest file '../../build/gnc_trajectory/gnc_trajectory.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build
+creating /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib
+creating /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib/gnc_trajectory
+copying gnc_trajectory/trajectory_server.py -> /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib/gnc_trajectory
+copying gnc_trajectory/__init__.py -> /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib/gnc_trajectory
+running install
+running install_lib
+creating /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory
+copying /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib/gnc_trajectory/trajectory_server.py -> /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory
+copying /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib/gnc_trajectory/__init__.py -> /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory
+byte-compiling /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory/trajectory_server.py to trajectory_server.cpython-310.pyc
+byte-compiling /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/share/ament_index
+creating /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/share/ament_index/resource_index
+creating /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/share/ament_index/resource_index/packages
+copying resource/gnc_trajectory -> /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/share/ament_index/resource_index/packages
+copying package.xml -> /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/share/gnc_trajectory
+running install_egg_info
+Copying ../../build/gnc_trajectory/gnc_trajectory.egg-info to /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory-0.0.0-py3.10.egg-info
+running install_scripts
+Installing trajectory_server script to /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/gnc_trajectory
+writing list of installed files to '/home/nicks1811/muas_ros_workspace/build/gnc_trajectory/install.log'

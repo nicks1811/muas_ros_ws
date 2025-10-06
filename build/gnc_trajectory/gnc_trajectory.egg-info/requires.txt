@@ -1,0 +1,5 @@
+gnc_msgs
+setuptools
+
+[test]
+pytest

@@ -1,0 +1,4 @@
+Invoking command in '/home/nicks1811/muas_ros_workspace/build/vision_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/vision_pkg -- -j12 -l12
+Invoked command in '/home/nicks1811/muas_ros_workspace/build/vision_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/vision_pkg -- -j12 -l12
+Invoking command in '/home/nicks1811/muas_ros_workspace/build/vision_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/vision_pkg
+Invoked command in '/home/nicks1811/muas_ros_workspace/build/vision_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/vision_pkg

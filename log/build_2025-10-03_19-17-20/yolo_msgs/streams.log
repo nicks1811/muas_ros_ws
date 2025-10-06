@@ -1,0 +1,97 @@
+[0.014s] Invoking command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs': CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/vision_pkg:/home/nicks1811/muas_ros_workspace/install/gnc_trajectory:/opt/ros/humble:/home/nicks1811/muas_ros_workspace/install/gnc_msgs /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/yolo_msgs
+[0.210s] -- The C compiler identification is GNU 11.4.0
+[0.677s] -- The CXX compiler identification is GNU 11.4.0
+[1.000s] -- Detecting C compiler ABI info
+[1.115s] -- Detecting C compiler ABI info - done
+[1.119s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.122s] -- Detecting C compile features
+[1.123s] -- Detecting C compile features - done
+[1.126s] -- Detecting CXX compiler ABI info
+[1.251s] -- Detecting CXX compiler ABI info - done
+[1.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.256s] -- Detecting CXX compile features
+[1.256s] -- Detecting CXX compile features - done
+[1.262s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.531s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.617s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.623s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.631s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.813s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.851s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.882s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.144s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.325s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.556s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.713s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.718s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.154s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.154s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.154s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.154s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.172s] -- Found PythonExtra: .so  
+[3.295s] -- Configuring done
+[3.353s] -- Generating done
+[3.364s] -- Build files have been written to: /home/nicks1811/muas_ros_workspace/build/yolo_msgs
+[3.373s] Invoked command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/vision_pkg:/home/nicks1811/muas_ros_workspace/install/gnc_trajectory:/opt/ros/humble:/home/nicks1811/muas_ros_workspace/install/gnc_msgs /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/yolo_msgs
+[3.374s] Invoking command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs': CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/vision_pkg:/home/nicks1811/muas_ros_workspace/install/gnc_trajectory:/opt/ros/humble:/home/nicks1811/muas_ros_workspace/install/gnc_msgs /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/yolo_msgs -- -j12 -l12
+[3.408s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.414s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.427s] [  1%] Built target ament_cmake_python_copy_yolo_msgs
+[3.664s] running egg_info
+[3.680s] creating yolo_msgs.egg-info
+[3.680s] writing yolo_msgs.egg-info/PKG-INFO
+[3.681s] writing dependency_links to yolo_msgs.egg-info/dependency_links.txt
+[3.681s] writing top-level names to yolo_msgs.egg-info/top_level.txt
+[3.681s] writing manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[3.740s] reading manifest file 'yolo_msgs.egg-info/SOURCES.txt'
+[3.785s] Traceback (most recent call last):
+[3.785s]   File "/home/nicks1811/muas_ros_workspace/build/yolo_msgs/ament_cmake_python/yolo_msgs/setup.py", line 4, in <module>
+[3.786s]     setup(
+[3.786s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 115, in setup
+[3.786s]     return distutils.core.setup(**attrs)
+[3.786s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[3.787s]     return run_commands(dist)
+[3.787s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[3.787s]     dist.run_commands()
+[3.787s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[3.788s]     self.run_command(cmd)
+[3.789s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1102, in run_command
+[3.790s]     super().run_command(command)
+[3.791s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1021, in run_command
+[3.791s]     cmd_obj.run()
+[3.791s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 312, in run
+[3.791s]     self.find_sources()
+[3.792s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 320, in find_sources
+[3.792s]     mm.run()
+[3.792s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 548, in run
+[3.792s]     self.prune_file_list()
+[3.792s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list
+[3.793s]     super().prune_file_list()
+[3.793s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/_distutils/command/sdist.py", line 386, in prune_file_list
+[3.793s]     base_dir = self.distribution.get_fullname()
+[3.794s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[3.794s]     return _distribution_fullname(self.get_name(), self.get_version())
+[3.794s]   File "/home/nicks1811/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[3.794s]     canonicalize_version(version, strip_trailing_zero=False),
+[3.794s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[3.824s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_yolo_msgs_egg] Error 1
+[3.824s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_yolo_msgs_egg.dir/all] Error 2
+[3.824s] gmake[1]: *** Waiting for unfinished jobs....
+[4.434s] [  1%] Built target yolo_msgs__cpp
+[4.521s] [  2%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/point2_d__functions.c.o[0m
+[4.523s] [  2%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point2_d__functions.c.o[0m
+[4.526s] [  3%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d__functions.c.o[0m
+[4.526s] [  4%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/vector2__functions.c.o[0m
+[4.526s] [  4%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/pose2_d__functions.c.o[0m
+[4.527s] [  5%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/bounding_box3_d__functions.c.o[0m
+[4.527s] [  6%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/mask__functions.c.o[0m
+[4.528s] [  7%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/bounding_box2_d__functions.c.o[0m
+[4.528s] [  8%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point2_d_array__functions.c.o[0m
+[4.530s] [  9%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/key_point3_d_array__functions.c.o[0m
+[4.532s] [ 10%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detection__functions.c.o[0m
+[4.537s] [ 10%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/msg/detail/detection_array__functions.c.o[0m
+[4.630s] [ 11%] [32mBuilding C object CMakeFiles/yolo_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolo_msgs/srv/detail/set_classes__functions.c.o[0m
+[4.672s] [ 12%] [32m[1mLinking C shared library libyolo_msgs__rosidl_generator_c.so[0m
+[4.818s] [ 12%] Built target yolo_msgs__rosidl_generator_c
+[4.819s] gmake: *** [Makefile:146: all] Error 2
+[4.821s] Invoked command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs' returned '2': CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/vision_pkg:/home/nicks1811/muas_ros_workspace/install/gnc_trajectory:/opt/ros/humble:/home/nicks1811/muas_ros_workspace/install/gnc_msgs /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/yolo_msgs -- -j12 -l12

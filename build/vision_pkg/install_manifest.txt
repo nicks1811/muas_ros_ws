@@ -1,0 +1,16 @@
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/lib/vision_pkg/my_node
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/ament_index/resource_index/package_run_dependencies/vision_pkg
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/ament_index/resource_index/parent_prefix_path/vision_pkg
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/environment/ament_prefix_path.sh
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/environment/ament_prefix_path.dsv
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/environment/path.sh
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/environment/path.dsv
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/local_setup.bash
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/local_setup.sh
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/local_setup.zsh
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/local_setup.dsv
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/package.dsv
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/ament_index/resource_index/packages/vision_pkg
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/cmake/vision_pkgConfig.cmake
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/cmake/vision_pkgConfig-version.cmake
+/home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/package.xml

@@ -1,0 +1,3 @@
+[console_scripts]
+trajectory_server = gnc_trajectory.trajectory_server:main
+

@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target my_node[0m
+[100%] Built target my_node
+-- Install configuration: ""
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/lib/vision_pkg/my_node
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/ament_index/resource_index/package_run_dependencies/vision_pkg
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/ament_index/resource_index/parent_prefix_path/vision_pkg
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/environment/path.sh
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/environment/path.dsv
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/local_setup.bash
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/local_setup.sh
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/local_setup.zsh
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/local_setup.dsv
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/package.dsv
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/ament_index/resource_index/packages/vision_pkg
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/cmake/vision_pkgConfig.cmake
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/cmake/vision_pkgConfig-version.cmake
+-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/vision_pkg/share/vision_pkg/package.xml

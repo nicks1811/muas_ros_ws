@@ -1,0 +1,391 @@
+[0.000000] (-) TimerEvent: {}
+[0.000691] (gnc_msgs) JobQueued: {'identifier': 'gnc_msgs', 'dependencies': OrderedDict()}
+[0.000775] (gnc_trajectory) JobQueued: {'identifier': 'gnc_trajectory', 'dependencies': OrderedDict([('gnc_msgs', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs')])}
+[0.000899] (gnc_msgs) JobStarted: {'identifier': 'gnc_msgs'}
+[0.021495] (gnc_msgs) JobProgress: {'identifier': 'gnc_msgs', 'progress': 'cmake'}
+[0.023000] (gnc_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/nicks1811/muas_ros_workspace/src/gnc_msgs', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/gnc_msgs'], 'cwd': '/home/nicks1811/muas_ros_workspace/build/gnc_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicks1811'), ('ROS_PACKAGE_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/share'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nicks1811'), ('OLDPWD', '/home/nicks1811/muas_ros_workspace/src/gnc_msgs/msg'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicks1811/muas_ros_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicks1811'), ('NAME', 'ssossa22'), ('WSL_INTEROP', '/run/WSL/401_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025a/runtime/win64:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Users/nicol/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nicol/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/nicol/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_trajectory:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nicks1811/muas_ros_workspace/build/gnc_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages:/home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs'), ('WSLENV', '')]), 'shell': False}
+[0.101714] (-) TimerEvent: {}
+[0.204185] (-) TimerEvent: {}
+[0.306554] (-) TimerEvent: {}
+[0.407199] (-) TimerEvent: {}
+[0.507991] (-) TimerEvent: {}
+[0.583415] (gnc_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.608476] (-) TimerEvent: {}
+[0.710540] (-) TimerEvent: {}
+[0.812917] (-) TimerEvent: {}
+[0.913903] (-) TimerEvent: {}
+[1.014934] (-) TimerEvent: {}
+[1.116032] (-) TimerEvent: {}
+[1.207288] (gnc_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.216308] (-) TimerEvent: {}
+[1.316763] (-) TimerEvent: {}
+[1.417444] (-) TimerEvent: {}
+[1.517925] (-) TimerEvent: {}
+[1.547820] (gnc_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.618315] (-) TimerEvent: {}
+[1.718896] (-) TimerEvent: {}
+[1.819724] (-) TimerEvent: {}
+[1.857218] (gnc_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.869939] (gnc_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.873657] (gnc_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.874555] (gnc_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.882869] (gnc_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.920174] (-) TimerEvent: {}
+[2.020829] (-) TimerEvent: {}
+[2.121560] (-) TimerEvent: {}
+[2.152467] (gnc_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.163482] (gnc_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.163987] (gnc_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.164570] (gnc_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.181284] (gnc_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.222068] (-) TimerEvent: {}
+[2.322857] (-) TimerEvent: {}
+[2.400981] (gnc_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.423384] (-) TimerEvent: {}
+[2.524211] (-) TimerEvent: {}
+[2.597974] (gnc_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.607535] (gnc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.621122] (gnc_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.624536] (-) TimerEvent: {}
+[2.725330] (-) TimerEvent: {}
+[2.826781] (-) TimerEvent: {}
+[2.927731] (-) TimerEvent: {}
+[3.028284] (-) TimerEvent: {}
+[3.130407] (-) TimerEvent: {}
+[3.155262] (gnc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.225985] (gnc_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.230722] (-) TimerEvent: {}
+[3.331335] (-) TimerEvent: {}
+[3.432873] (-) TimerEvent: {}
+[3.533567] (-) TimerEvent: {}
+[3.634609] (-) TimerEvent: {}
+[3.713471] (gnc_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.735135] (-) TimerEvent: {}
+[3.836168] (-) TimerEvent: {}
+[3.936750] (-) TimerEvent: {}
+[4.037864] (-) TimerEvent: {}
+[4.055154] (gnc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.138187] (-) TimerEvent: {}
+[4.240086] (-) TimerEvent: {}
+[4.340640] (-) TimerEvent: {}
+[4.443747] (-) TimerEvent: {}
+[4.512014] (gnc_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.544334] (-) TimerEvent: {}
+[4.645135] (-) TimerEvent: {}
+[4.726629] (gnc_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.732813] (gnc_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.745981] (-) TimerEvent: {}
+[4.846463] (-) TimerEvent: {}
+[4.946976] (-) TimerEvent: {}
+[5.047399] (-) TimerEvent: {}
+[5.137738] (gnc_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[5.138263] (gnc_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.138423] (gnc_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.138521] (gnc_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.147611] (-) TimerEvent: {}
+[5.168111] (gnc_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.247970] (-) TimerEvent: {}
+[5.339337] (gnc_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.348557] (-) TimerEvent: {}
+[5.406751] (gnc_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[5.409581] (gnc_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning:\n'}
+[5.409791] (gnc_msgs) StderrLine: {'line': b'  Manually-specified variables were not used by the project:\n'}
+[5.409880] (gnc_msgs) StderrLine: {'line': b'\n'}
+[5.409957] (gnc_msgs) StderrLine: {'line': b'    CATKIN_INSTALL_INTO_PREFIX_ROOT\n'}
+[5.410030] (gnc_msgs) StderrLine: {'line': b'\n'}
+[5.410106] (gnc_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[5.423736] (gnc_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/nicks1811/muas_ros_workspace/build/gnc_msgs\n'}
+[5.434280] (gnc_msgs) CommandEnded: {'returncode': 0}
+[5.435371] (gnc_msgs) JobProgress: {'identifier': 'gnc_msgs', 'progress': 'build'}
+[5.439155] (gnc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicks1811/muas_ros_workspace/build/gnc_msgs', '--', '-j12', '-l12'], 'cwd': '/home/nicks1811/muas_ros_workspace/build/gnc_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicks1811'), ('ROS_PACKAGE_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/share'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nicks1811'), ('OLDPWD', '/home/nicks1811/muas_ros_workspace/src/gnc_msgs/msg'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicks1811/muas_ros_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicks1811'), ('NAME', 'ssossa22'), ('WSL_INTEROP', '/run/WSL/401_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025a/runtime/win64:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Users/nicol/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nicol/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/nicol/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_trajectory:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nicks1811/muas_ros_workspace/build/gnc_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages:/home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs'), ('WSLENV', '')]), 'shell': False}
+[5.448872] (-) TimerEvent: {}
+[5.481928] (gnc_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.491481] (gnc_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.503934] (gnc_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_gnc_msgs\n'}
+[5.549233] (-) TimerEvent: {}
+[5.649841] (-) TimerEvent: {}
+[5.750527] (-) TimerEvent: {}
+[5.852245] (-) TimerEvent: {}
+[5.867503] (gnc_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[5.868987] (gnc_msgs) StdoutLine: {'line': b'creating gnc_msgs.egg-info\n'}
+[5.869671] (gnc_msgs) StdoutLine: {'line': b'writing gnc_msgs.egg-info/PKG-INFO\n'}
+[5.869862] (gnc_msgs) StdoutLine: {'line': b'writing dependency_links to gnc_msgs.egg-info/dependency_links.txt\n'}
+[5.870311] (gnc_msgs) StdoutLine: {'line': b'writing top-level names to gnc_msgs.egg-info/top_level.txt\n'}
+[5.870670] (gnc_msgs) StdoutLine: {'line': b"writing manifest file 'gnc_msgs.egg-info/SOURCES.txt'\n"}
+[5.877593] (gnc_msgs) StdoutLine: {'line': b"reading manifest file 'gnc_msgs.egg-info/SOURCES.txt'\n"}
+[5.878894] (gnc_msgs) StdoutLine: {'line': b"writing manifest file 'gnc_msgs.egg-info/SOURCES.txt'\n"}
+[5.915928] (gnc_msgs) StdoutLine: {'line': b'[  6%] Built target gnc_msgs__cpp\n'}
+[5.924946] (gnc_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_gnc_msgs_egg\n'}
+[5.929893] (gnc_msgs) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.930902] (gnc_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.933499] (gnc_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.941260] (gnc_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/gnc_msgs__rosidl_generator_c.dir/rosidl_generator_c/gnc_msgs/msg/detail/trajectory_point__functions.c.o\x1b[0m\n'}
+[5.952757] (-) TimerEvent: {}
+[6.053609] (-) TimerEvent: {}
+[6.129695] (gnc_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libgnc_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[6.154172] (-) TimerEvent: {}
+[6.254721] (-) TimerEvent: {}
+[6.316670] (gnc_msgs) StdoutLine: {'line': b'[ 22%] Built target gnc_msgs__rosidl_generator_c\n'}
+[6.320880] (gnc_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gnc_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/gnc_msgs/msg/trajectory_point__type_support.cpp.o\x1b[0m\n'}
+[6.333236] (gnc_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.334455] (gnc_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.341875] (gnc_msgs) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.350890] (gnc_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/gnc_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gnc_msgs/msg/detail/trajectory_point__type_support.cpp.o\x1b[0m\n'}
+[6.355118] (-) TimerEvent: {}
+[6.390020] (gnc_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/gnc_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/gnc_msgs/msg/detail/dds_fastrtps/trajectory_point__type_support.cpp.o\x1b[0m\n'}
+[6.455735] (-) TimerEvent: {}
+[6.556376] (-) TimerEvent: {}
+[6.656949] (-) TimerEvent: {}
+[6.757509] (-) TimerEvent: {}
+[6.858079] (-) TimerEvent: {}
+[6.897308] (gnc_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/gnc_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/gnc_msgs/msg/trajectory_point__type_support.cpp.o\x1b[0m\n'}
+[6.911201] (gnc_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/gnc_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/gnc_msgs/msg/detail/trajectory_point__type_support_c.cpp.o\x1b[0m\n'}
+[6.913026] (gnc_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/gnc_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/gnc_msgs/msg/detail/trajectory_point__type_support.c.o\x1b[0m\n'}
+[6.958382] (-) TimerEvent: {}
+[6.975538] (gnc_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libgnc_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.998444] (gnc_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libgnc_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.038183] (gnc_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libgnc_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.058673] (-) TimerEvent: {}
+[7.159311] (-) TimerEvent: {}
+[7.191052] (gnc_msgs) StdoutLine: {'line': b'[ 61%] Built target gnc_msgs__rosidl_typesupport_c\n'}
+[7.205549] (gnc_msgs) StdoutLine: {'line': b'[ 61%] Built target gnc_msgs__rosidl_typesupport_introspection_c\n'}
+[7.209852] (gnc_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libgnc_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.238538] (gnc_msgs) StdoutLine: {'line': b'[ 64%] Built target gnc_msgs__rosidl_typesupport_cpp\n'}
+[7.259658] (-) TimerEvent: {}
+[7.338544] (gnc_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libgnc_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.360052] (-) TimerEvent: {}
+[7.455207] (gnc_msgs) StdoutLine: {'line': b'[ 67%] Built target gnc_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[7.460419] (-) TimerEvent: {}
+[7.534717] (gnc_msgs) StdoutLine: {'line': b'[ 67%] Built target gnc_msgs__rosidl_typesupport_introspection_cpp\n'}
+[7.552042] (gnc_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libgnc_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.560904] (-) TimerEvent: {}
+[7.661505] (-) TimerEvent: {}
+[7.746275] (gnc_msgs) StdoutLine: {'line': b'[ 70%] Built target gnc_msgs__rosidl_typesupport_fastrtps_c\n'}
+[7.761972] (-) TimerEvent: {}
+[7.770078] (gnc_msgs) StdoutLine: {'line': b'[ 70%] Built target gnc_msgs\n'}
+[7.792317] (gnc_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.862343] (-) TimerEvent: {}
+[7.965973] (-) TimerEvent: {}
+[8.067974] (-) TimerEvent: {}
+[8.168525] (-) TimerEvent: {}
+[8.177239] (gnc_msgs) StdoutLine: {'line': b'[ 74%] Built target gnc_msgs__py\n'}
+[8.200489] (gnc_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/gnc_msgs__rosidl_generator_py.dir/rosidl_generator_py/gnc_msgs/msg/_trajectory_point_s.c.o\x1b[0m\n'}
+[8.270914] (-) TimerEvent: {}
+[8.371763] (-) TimerEvent: {}
+[8.419358] (gnc_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gnc_msgs/libgnc_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[8.474119] (-) TimerEvent: {}
+[8.514436] (gnc_msgs) StdoutLine: {'line': b'[ 80%] Built target gnc_msgs__rosidl_generator_py\n'}
+[8.540838] (gnc_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/gnc_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.541470] (gnc_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/gnc_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.541981] (gnc_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/gnc_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.574607] (-) TimerEvent: {}
+[8.675448] (-) TimerEvent: {}
+[8.682006] (gnc_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gnc_msgs/gnc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.689009] (gnc_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gnc_msgs/gnc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.697445] (gnc_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/gnc_msgs/gnc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.774875] (gnc_msgs) StdoutLine: {'line': b'[100%] Built target gnc_msgs__rosidl_typesupport_c__pyext\n'}
+[8.775556] (-) TimerEvent: {}
+[8.778367] (gnc_msgs) StdoutLine: {'line': b'[100%] Built target gnc_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[8.817273] (gnc_msgs) StdoutLine: {'line': b'[100%] Built target gnc_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.830032] (gnc_msgs) CommandEnded: {'returncode': 0}
+[8.832042] (gnc_msgs) JobProgress: {'identifier': 'gnc_msgs', 'progress': 'install'}
+[8.842288] (gnc_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nicks1811/muas_ros_workspace/build/gnc_msgs'], 'cwd': '/home/nicks1811/muas_ros_workspace/build/gnc_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicks1811'), ('ROS_PACKAGE_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/share'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nicks1811'), ('OLDPWD', '/home/nicks1811/muas_ros_workspace/src/gnc_msgs/msg'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicks1811/muas_ros_workspace/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicks1811'), ('NAME', 'ssossa22'), ('WSL_INTEROP', '/run/WSL/401_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025a/runtime/win64:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Users/nicol/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nicol/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/nicol/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_trajectory:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nicks1811/muas_ros_workspace/build/gnc_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages:/home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/nicks1811/muas_ros_workspace/install/gnc_msgs'), ('WSLENV', '')]), 'shell': False}
+[8.852525] (gnc_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.853468] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/ament_index/resource_index/rosidl_interfaces/gnc_msgs\n'}
+[8.853892] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs\n'}
+[8.854299] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg\n'}
+[8.854629] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail\n'}
+[8.855042] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__struct.h\n'}
+[8.855208] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__type_support.h\n'}
+[8.855349] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__functions.h\n'}
+[8.855696] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__functions.c\n'}
+[8.855894] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[8.856001] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/trajectory_point.h\n'}
+[8.856328] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/library_path.sh\n'}
+[8.856652] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/library_path.dsv\n'}
+[8.856979] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_generator_c.so\n'}
+[8.857623] (gnc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_generator_c.so" to ""\n'}
+[8.857936] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs\n'}
+[8.858146] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg\n'}
+[8.858461] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail\n'}
+[8.858560] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_c.h\n'}
+[8.858684] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[8.858797] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.859080] (gnc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.859398] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs\n'}
+[8.859559] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg\n'}
+[8.859761] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail\n'}
+[8.859920] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_c.h\n'}
+[8.860127] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__type_support.c\n'}
+[8.860808] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[8.860915] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.860992] (gnc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.861073] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_c.so\n'}
+[8.861152] (gnc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.861235] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs\n'}
+[8.861408] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg\n'}
+[8.861576] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail\n'}
+[8.861777] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__type_support.hpp\n'}
+[8.861935] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__builder.hpp\n'}
+[8.862274] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__struct.hpp\n'}
+[8.862473] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__traits.hpp\n'}
+[8.862864] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[8.863094] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/trajectory_point.hpp\n'}
+[8.863238] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs\n'}
+[8.863691] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg\n'}
+[8.863805] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[8.863900] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail\n'}
+[8.864222] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[8.864331] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/dds_fastrtps\n'}
+[8.864409] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.864663] (gnc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.865205] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs\n'}
+[8.865565] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg\n'}
+[8.865774] (gnc_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail\n'}
+[8.865855] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__type_support.cpp\n'}
+[8.866071] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/include/gnc_msgs/gnc_msgs/msg/detail/trajectory_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[8.866364] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.866884] (gnc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.867109] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_cpp.so\n'}
+[8.867333] (gnc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.867734] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/pythonpath.sh\n'}
+[8.867864] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/pythonpath.dsv\n'}
+[8.867953] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs-0.0.0-py3.10.egg-info\n'}
+[8.868204] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[8.868477] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[8.868867] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[8.868987] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[8.869579] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs\n'}
+[8.869723] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.869951] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[8.870057] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[8.870303] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/__init__.py\n'}
+[8.870503] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.870969] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/libgnc_msgs__rosidl_generator_py.so\n'}
+[8.871453] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/_gnc_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[8.871672] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg\n'}
+[8.871928] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg/_trajectory_point_s.c\n'}
+[8.872297] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg/_trajectory_point.py\n'}
+[8.872511] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg/__init__.py\n'}
+[8.872712] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.875783] (-) TimerEvent: {}
+[8.914241] (gnc_msgs) StdoutLine: {'line': b"Listing '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs'...\n"}
+[8.914490] (gnc_msgs) StdoutLine: {'line': b"Compiling '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/__init__.py'...\n"}
+[8.914632] (gnc_msgs) StdoutLine: {'line': b"Listing '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg'...\n"}
+[8.914738] (gnc_msgs) StdoutLine: {'line': b"Compiling '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg/__init__.py'...\n"}
+[8.914830] (gnc_msgs) StdoutLine: {'line': b"Compiling '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/msg/_trajectory_point.py'...\n"}
+[8.920406] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.920880] (gnc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.921348] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.921736] (gnc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.922373] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.922524] (gnc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages/gnc_msgs/gnc_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.922612] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_generator_py.so\n'}
+[8.923145] (gnc_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/libgnc_msgs__rosidl_generator_py.so" to ""\n'}
+[8.923423] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/msg/TrajectoryPoint.idl\n'}
+[8.923806] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/msg/TrajectoryPoint.msg\n'}
+[8.924398] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/ament_index/resource_index/package_run_dependencies/gnc_msgs\n'}
+[8.924709] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/ament_index/resource_index/parent_prefix_path/gnc_msgs\n'}
+[8.925020] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/ament_prefix_path.sh\n'}
+[8.925257] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/ament_prefix_path.dsv\n'}
+[8.925609] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/path.sh\n'}
+[8.925873] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/environment/path.dsv\n'}
+[8.928806] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/local_setup.bash\n'}
+[8.928952] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/local_setup.sh\n'}
+[8.929137] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/local_setup.zsh\n'}
+[8.929246] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/local_setup.dsv\n'}
+[8.929338] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/package.dsv\n'}
+[8.929424] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/ament_index/resource_index/packages/gnc_msgs\n'}
+[8.930415] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_generator_cExport.cmake\n'}
+[8.930589] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.930685] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.930764] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.930840] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.930916] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.931154] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.932398] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.933077] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.933303] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.933627] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.933775] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.933911] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.934043] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.934485] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.935225] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_generator_pyExport.cmake\n'}
+[8.935866] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/export_gnc_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.936276] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.937406] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.937622] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.937764] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.938555] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.939087] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.939440] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.940241] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgsConfig.cmake\n'}
+[8.940471] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/cmake/gnc_msgsConfig-version.cmake\n'}
+[8.940656] (gnc_msgs) StdoutLine: {'line': b'-- Installing: /home/nicks1811/muas_ros_workspace/install/gnc_msgs/share/gnc_msgs/package.xml\n'}
+[8.945927] (gnc_msgs) CommandEnded: {'returncode': 0}
+[8.976588] (-) TimerEvent: {}
+[9.004578] (gnc_msgs) JobEnded: {'identifier': 'gnc_msgs', 'rc': 0}
+[9.006723] (gnc_trajectory) JobStarted: {'identifier': 'gnc_trajectory'}
+[9.076755] (-) TimerEvent: {}
+[9.177627] (-) TimerEvent: {}
+[9.278071] (-) TimerEvent: {}
+[9.378859] (-) TimerEvent: {}
+[9.479697] (-) TimerEvent: {}
+[9.580553] (-) TimerEvent: {}
+[9.681401] (-) TimerEvent: {}
+[9.782302] (-) TimerEvent: {}
+[9.884796] (-) TimerEvent: {}
+[9.985822] (-) TimerEvent: {}
+[10.086483] (-) TimerEvent: {}
+[10.187359] (-) TimerEvent: {}
+[10.288718] (-) TimerEvent: {}
+[10.390034] (-) TimerEvent: {}
+[10.494687] (-) TimerEvent: {}
+[10.599335] (-) TimerEvent: {}
+[10.700842] (-) TimerEvent: {}
+[10.802226] (-) TimerEvent: {}
+[10.903092] (-) TimerEvent: {}
+[10.948985] (gnc_trajectory) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gnc_trajectory', 'build', '--build-base', '/home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build', 'install', '--record', '/home/nicks1811/muas_ros_workspace/build/gnc_trajectory/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nicks1811/muas_ros_workspace/src/gnc_trajectory', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'nicks1811', 'ROS_PACKAGE_PATH': '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/share', 'ROS_APT_SOURCE_VERSION': '1.1.0', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nicks1811', 'OLDPWD': '/home/nicks1811/muas_ros_workspace/src/gnc_msgs/msg', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/nicks1811/muas_ros_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'nicks1811', 'NAME': 'ssossa22', 'WSL_INTEROP': '/run/WSL/401_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/nicks1811/muas_ros_workspace/install/gnc_msgs/lib/pkgconfig', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/MATLAB/R2025a/runtime/win64:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Users/nicol/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/nicol/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/nicol/AppData/Local/GitHubDesktop/bin:/mnt/c/msys64/ucrt64/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/nicks1811/muas_ros_workspace/install/gnc_trajectory:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/nicks1811/muas_ros_workspace/build/gnc_trajectory', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nicks1811/muas_ros_workspace/build/gnc_trajectory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages:/home/nicks1811/muas_ros_workspace/install/gnc_msgs/local/lib/python3.10/dist-packages:/home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/nicks1811/muas_ros_workspace/install/gnc_msgs', 'WSLENV': ''}, 'shell': False}
+[11.003925] (-) TimerEvent: {}
+[11.105058] (-) TimerEvent: {}
+[11.205989] (-) TimerEvent: {}
+[11.304446] (gnc_trajectory) StdoutLine: {'line': b'running egg_info\n'}
+[11.305409] (gnc_trajectory) StdoutLine: {'line': b'creating ../../build/gnc_trajectory/gnc_trajectory.egg-info\n'}
+[11.306004] (-) TimerEvent: {}
+[11.306454] (gnc_trajectory) StdoutLine: {'line': b'writing ../../build/gnc_trajectory/gnc_trajectory.egg-info/PKG-INFO\n'}
+[11.306686] (gnc_trajectory) StdoutLine: {'line': b'writing dependency_links to ../../build/gnc_trajectory/gnc_trajectory.egg-info/dependency_links.txt\n'}
+[11.307185] (gnc_trajectory) StdoutLine: {'line': b'writing entry points to ../../build/gnc_trajectory/gnc_trajectory.egg-info/entry_points.txt\n'}
+[11.307499] (gnc_trajectory) StdoutLine: {'line': b'writing requirements to ../../build/gnc_trajectory/gnc_trajectory.egg-info/requires.txt\n'}
+[11.307610] (gnc_trajectory) StdoutLine: {'line': b'writing top-level names to ../../build/gnc_trajectory/gnc_trajectory.egg-info/top_level.txt\n'}
+[11.307698] (gnc_trajectory) StdoutLine: {'line': b"writing manifest file '../../build/gnc_trajectory/gnc_trajectory.egg-info/SOURCES.txt'\n"}
+[11.309172] (gnc_trajectory) StdoutLine: {'line': b"reading manifest file '../../build/gnc_trajectory/gnc_trajectory.egg-info/SOURCES.txt'\n"}
+[11.309843] (gnc_trajectory) StdoutLine: {'line': b"writing manifest file '../../build/gnc_trajectory/gnc_trajectory.egg-info/SOURCES.txt'\n"}
+[11.310343] (gnc_trajectory) StdoutLine: {'line': b'running build\n'}
+[11.310768] (gnc_trajectory) StdoutLine: {'line': b'running build_py\n'}
+[11.310899] (gnc_trajectory) StdoutLine: {'line': b'creating /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build\n'}
+[11.311305] (gnc_trajectory) StdoutLine: {'line': b'creating /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib\n'}
+[11.311476] (gnc_trajectory) StdoutLine: {'line': b'creating /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib/gnc_trajectory\n'}
+[11.311615] (gnc_trajectory) StdoutLine: {'line': b'copying gnc_trajectory/trajectory_server.py -> /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib/gnc_trajectory\n'}
+[11.313069] (gnc_trajectory) StdoutLine: {'line': b'copying gnc_trajectory/__init__.py -> /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib/gnc_trajectory\n'}
+[11.313459] (gnc_trajectory) StdoutLine: {'line': b'running install\n'}
+[11.314429] (gnc_trajectory) StdoutLine: {'line': b'running install_lib\n'}
+[11.315358] (gnc_trajectory) StdoutLine: {'line': b'creating /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory\n'}
+[11.315654] (gnc_trajectory) StdoutLine: {'line': b'copying /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib/gnc_trajectory/trajectory_server.py -> /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory\n'}
+[11.316131] (gnc_trajectory) StdoutLine: {'line': b'copying /home/nicks1811/muas_ros_workspace/build/gnc_trajectory/build/lib/gnc_trajectory/__init__.py -> /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory\n'}
+[11.316977] (gnc_trajectory) StdoutLine: {'line': b'byte-compiling /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory/trajectory_server.py to trajectory_server.cpython-310.pyc\n'}
+[11.318072] (gnc_trajectory) StdoutLine: {'line': b'byte-compiling /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory/__init__.py to __init__.cpython-310.pyc\n'}
+[11.318660] (gnc_trajectory) StdoutLine: {'line': b'running install_data\n'}
+[11.319136] (gnc_trajectory) StdoutLine: {'line': b'creating /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/share/ament_index\n'}
+[11.319527] (gnc_trajectory) StdoutLine: {'line': b'creating /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/share/ament_index/resource_index\n'}
+[11.320050] (gnc_trajectory) StdoutLine: {'line': b'creating /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/share/ament_index/resource_index/packages\n'}
+[11.320231] (gnc_trajectory) StdoutLine: {'line': b'copying resource/gnc_trajectory -> /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/share/ament_index/resource_index/packages\n'}
+[11.320382] (gnc_trajectory) StdoutLine: {'line': b'copying package.xml -> /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/share/gnc_trajectory\n'}
+[11.320522] (gnc_trajectory) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.321716] (gnc_trajectory) StdoutLine: {'line': b'Copying ../../build/gnc_trajectory/gnc_trajectory.egg-info to /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/python3.10/site-packages/gnc_trajectory-0.0.0-py3.10.egg-info\n'}
+[11.322798] (gnc_trajectory) StdoutLine: {'line': b'running install_scripts\n'}
+[11.350398] (gnc_trajectory) StdoutLine: {'line': b'Installing trajectory_server script to /home/nicks1811/muas_ros_workspace/install/gnc_trajectory/lib/gnc_trajectory\n'}
+[11.351003] (gnc_trajectory) StdoutLine: {'line': b"writing list of installed files to '/home/nicks1811/muas_ros_workspace/build/gnc_trajectory/install.log'\n"}
+[11.384561] (gnc_trajectory) CommandEnded: {'returncode': 0}
+[11.395790] (gnc_trajectory) JobEnded: {'identifier': 'gnc_trajectory', 'rc': 0}
+[11.396628] (-) EventReactorShutdown: {}
