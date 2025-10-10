@@ -1,0 +1,2 @@
+Invoking command in '/home/nicks1811/muas_ros_workspace/build/px4_msgs': /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/px4_msgs
+Invoked command in '/home/nicks1811/muas_ros_workspace/build/px4_msgs' returned '1': /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/px4_msgs

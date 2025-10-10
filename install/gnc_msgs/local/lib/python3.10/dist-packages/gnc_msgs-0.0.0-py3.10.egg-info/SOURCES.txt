@@ -1,6 +1,0 @@
-setup.py
-gnc_msgs/__init__.py
-gnc_msgs.egg-info/PKG-INFO
-gnc_msgs.egg-info/SOURCES.txt
-gnc_msgs.egg-info/dependency_links.txt
-gnc_msgs.egg-info/top_level.txt

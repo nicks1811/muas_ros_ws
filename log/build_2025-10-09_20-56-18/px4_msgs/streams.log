@@ -1,0 +1,33 @@
+[0.023s] Invoking command in '/home/nicks1811/muas_ros_workspace/build/px4_msgs': /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/px4_msgs
+[0.227s] -- The C compiler identification is GNU 11.4.0
+[1.027s] -- The CXX compiler identification is GNU 11.4.0
+[1.675s] -- Detecting C compiler ABI info
+[1.936s] -- Detecting C compiler ABI info - done
+[1.946s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.946s] -- Detecting C compile features
+[1.947s] -- Detecting C compile features - done
+[1.951s] -- Detecting CXX compiler ABI info
+[2.232s] -- Detecting CXX compiler ABI info - done
+[2.243s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.243s] -- Detecting CXX compile features
+[2.244s] -- Detecting CXX compile features - done
+[3.114s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[3.114s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[3.114s]   has asked CMake to find a package configuration file provided by
+[3.114s]   "ament_cmake", but CMake did not find one.
+[3.114s] 
+[3.114s]   Could not find a package configuration file provided by "ament_cmake" with
+[3.114s]   any of the following names:
+[3.114s] 
+[3.115s]     ament_cmakeConfig.cmake
+[3.115s]     ament_cmake-config.cmake
+[3.115s] 
+[3.115s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[3.115s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[3.115s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[3.115s]   has been installed.
+[3.115s] 
+[3.115s] [0m
+[3.115s] -- Configuring incomplete, errors occurred!
+[3.115s] See also "/home/nicks1811/muas_ros_workspace/build/px4_msgs/CMakeFiles/CMakeOutput.log".
+[3.119s] Invoked command in '/home/nicks1811/muas_ros_workspace/build/px4_msgs' returned '1': /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/px4_msgs

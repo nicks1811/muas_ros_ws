@@ -1,0 +1,45 @@
+[1.397s] Invoking command in '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_ros': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages:/home/nicks1811/muas_ros_workspace/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/nicks1811/muas_ros_workspace/build/yolo_ros/build install --record /home/nicks1811/muas_ros_workspace/build/yolo_ros/install.log --single-version-externally-managed install_data
+[1.731s] running egg_info
+[1.752s] creating ../../../build/yolo_ros/yolo_ros.egg-info
+[1.752s] writing ../../../build/yolo_ros/yolo_ros.egg-info/PKG-INFO
+[1.753s] writing dependency_links to ../../../build/yolo_ros/yolo_ros.egg-info/dependency_links.txt
+[1.754s] writing entry points to ../../../build/yolo_ros/yolo_ros.egg-info/entry_points.txt
+[1.754s] writing requirements to ../../../build/yolo_ros/yolo_ros.egg-info/requires.txt
+[1.754s] writing top-level names to ../../../build/yolo_ros/yolo_ros.egg-info/top_level.txt
+[1.754s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.800s] reading manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.802s] writing manifest file '../../../build/yolo_ros/yolo_ros.egg-info/SOURCES.txt'
+[1.802s] running build
+[1.802s] running build_py
+[1.802s] creating /home/nicks1811/muas_ros_workspace/build/yolo_ros/build/lib/yolo_ros
+[1.805s] copying yolo_ros/yolo_node.py -> /home/nicks1811/muas_ros_workspace/build/yolo_ros/build/lib/yolo_ros
+[1.805s] copying yolo_ros/__init__.py -> /home/nicks1811/muas_ros_workspace/build/yolo_ros/build/lib/yolo_ros
+[1.805s] copying yolo_ros/debug_node.py -> /home/nicks1811/muas_ros_workspace/build/yolo_ros/build/lib/yolo_ros
+[1.805s] copying yolo_ros/detect_3d_node.py -> /home/nicks1811/muas_ros_workspace/build/yolo_ros/build/lib/yolo_ros
+[1.806s] copying yolo_ros/tracking_node.py -> /home/nicks1811/muas_ros_workspace/build/yolo_ros/build/lib/yolo_ros
+[1.806s] running install
+[1.811s] running install_lib
+[1.834s] creating /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.835s] copying /home/nicks1811/muas_ros_workspace/build/yolo_ros/build/lib/yolo_ros/yolo_node.py -> /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.835s] copying /home/nicks1811/muas_ros_workspace/build/yolo_ros/build/lib/yolo_ros/__init__.py -> /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.836s] copying /home/nicks1811/muas_ros_workspace/build/yolo_ros/build/lib/yolo_ros/debug_node.py -> /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.836s] copying /home/nicks1811/muas_ros_workspace/build/yolo_ros/build/lib/yolo_ros/detect_3d_node.py -> /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.836s] copying /home/nicks1811/muas_ros_workspace/build/yolo_ros/build/lib/yolo_ros/tracking_node.py -> /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros
+[1.837s] byte-compiling /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/yolo_node.py to yolo_node.cpython-310.pyc
+[1.841s] byte-compiling /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/__init__.py to __init__.cpython-310.pyc
+[1.841s] byte-compiling /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/debug_node.py to debug_node.cpython-310.pyc
+[1.844s] byte-compiling /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/detect_3d_node.py to detect_3d_node.cpython-310.pyc
+[1.847s] byte-compiling /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros/tracking_node.py to tracking_node.cpython-310.pyc
+[1.848s] running install_data
+[1.848s] creating /home/nicks1811/muas_ros_workspace/install/yolo_ros/share/ament_index/resource_index/packages
+[1.851s] copying resource/yolo_ros -> /home/nicks1811/muas_ros_workspace/install/yolo_ros/share/ament_index/resource_index/packages
+[1.851s] copying package.xml -> /home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros
+[1.851s] running install_egg_info
+[1.874s] Copying ../../../build/yolo_ros/yolo_ros.egg-info to /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages/yolo_ros-0.0.0-py3.10.egg-info
+[1.876s] running install_scripts
+[1.923s] Installing debug_node script to /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/yolo_ros
+[1.924s] Installing detect_3d_node script to /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/yolo_ros
+[1.924s] Installing tracking_node script to /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/yolo_ros
+[1.924s] Installing yolo_node script to /home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/yolo_ros
+[1.925s] writing list of installed files to '/home/nicks1811/muas_ros_workspace/build/yolo_ros/install.log'
+[1.960s] Invoked command in '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_ros' returned '0': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages:/home/nicks1811/muas_ros_workspace/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/nicks1811/muas_ros_workspace/build/yolo_ros/build install --record /home/nicks1811/muas_ros_workspace/build/yolo_ros/install.log --single-version-externally-managed install_data

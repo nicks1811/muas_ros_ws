@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000412] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.000490] (yolo_msgs) JobQueued: {'identifier': 'yolo_msgs', 'dependencies': OrderedDict()}
+[0.000556] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/nicks1811/muas_ros_workspace/install/px4_msgs')])}
+[0.000620] (yolo_ros) JobQueued: {'identifier': 'yolo_ros', 'dependencies': OrderedDict([('yolo_msgs', '/home/nicks1811/muas_ros_workspace/install/yolo_msgs')])}
+[0.000682] (yolo_bringup) JobQueued: {'identifier': 'yolo_bringup', 'dependencies': OrderedDict([('yolo_msgs', '/home/nicks1811/muas_ros_workspace/install/yolo_msgs'), ('yolo_ros', '/home/nicks1811/muas_ros_workspace/install/yolo_ros')])}
+[0.000871] (yolo_msgs) JobStarted: {'identifier': 'yolo_msgs'}
+[0.007061] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.010458] (yolo_msgs) JobProgress: {'identifier': 'yolo_msgs', 'progress': 'cmake'}
+[0.014427] (yolo_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_msgs', '-DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/yolo_msgs'], 'cwd': '/home/nicks1811/muas_ros_workspace/build/yolo_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicks1811'), ('SHLVL', '1'), ('HOME', '/home/nicks1811'), ('OLDPWD', '/home/nicks1811'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'nicks1811'), ('NAME', 'DESKTOP-LFBLE1T'), ('WSL_INTEROP', '/run/WSL/324_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/nicks1811/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/rjsmi/AppData/Local/Microsoft/WindowsApps:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/NickJ/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/NickJ/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/NickJ/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/NickJ/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/NickJ/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/NickJ/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/NickJ/AppData/Local/GitHubDesktop/bin:/mnt/c/MinGW/bin:/mnt/d/Python:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nicks1811/muas_ros_workspace/build/yolo_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.022905] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.026328] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/nicks1811/muas_ros_workspace/src/px4_msgs', '-DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/px4_msgs'], 'cwd': '/home/nicks1811/muas_ros_workspace/build/px4_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nicks1811'), ('SHLVL', '1'), ('HOME', '/home/nicks1811'), ('OLDPWD', '/home/nicks1811'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'nicks1811'), ('NAME', 'DESKTOP-LFBLE1T'), ('WSL_INTEROP', '/run/WSL/324_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/nicks1811/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10021.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/Program Files (x86)/Razer/ChromaBroadcast/bin:/mnt/c/Program Files/Razer/ChromaBroadcast/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Users/rjsmi/AppData/Local/Microsoft/WindowsApps:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Users/NickJ/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/NickJ/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/NickJ/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/NickJ/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/NickJ/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/NickJ/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/NickJ/AppData/Local/GitHubDesktop/bin:/mnt/c/MinGW/bin:/mnt/d/Python:/snap/bin:/opt/xtensa-esp-elf/bin/'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/nicks1811/muas_ros_workspace/build/px4_msgs'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[0.102744] (-) TimerEvent: {}
+[0.209457] (-) TimerEvent: {}
+[0.233938] (px4_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.234385] (yolo_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.314406] (-) TimerEvent: {}
+[0.421246] (-) TimerEvent: {}
+[0.528069] (-) TimerEvent: {}
+[0.633312] (-) TimerEvent: {}
+[0.736062] (-) TimerEvent: {}
+[0.837388] (-) TimerEvent: {}
+[0.937854] (-) TimerEvent: {}
+[0.982865] (yolo_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.033595] (px4_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.038277] (-) TimerEvent: {}
+[1.145113] (-) TimerEvent: {}
+[1.251468] (-) TimerEvent: {}
+[1.358294] (-) TimerEvent: {}
+[1.465107] (-) TimerEvent: {}
+[1.571926] (-) TimerEvent: {}
+[1.622769] (yolo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.675215] (-) TimerEvent: {}
+[1.682115] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.781313] (-) TimerEvent: {}
+[1.888177] (-) TimerEvent: {}
+[1.893944] (yolo_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.903843] (yolo_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.904158] (yolo_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.904674] (yolo_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.908857] (yolo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.942927] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.952639] (px4_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.952949] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.953515] (px4_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.957528] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.988558] (-) TimerEvent: {}
+[2.091107] (-) TimerEvent: {}
+[2.192650] (yolo_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.192906] (-) TimerEvent: {}
+[2.202734] (yolo_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.203099] (yolo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.203711] (yolo_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.238918] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.250151] (px4_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.250520] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.251164] (px4_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.295750] (-) TimerEvent: {}
+[2.402271] (-) TimerEvent: {}
+[2.509095] (-) TimerEvent: {}
+[2.615918] (-) TimerEvent: {}
+[2.722747] (-) TimerEvent: {}
+[2.829558] (-) TimerEvent: {}
+[2.936390] (-) TimerEvent: {}
+[3.043204] (-) TimerEvent: {}
+[3.119075] (yolo_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[3.119669] (yolo_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.119759] (yolo_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.119838] (yolo_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.119912] (yolo_msgs) StderrLine: {'line': b'\n'}
+[3.119985] (yolo_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.120056] (yolo_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[3.120126] (yolo_msgs) StderrLine: {'line': b'\n'}
+[3.120197] (yolo_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.120267] (yolo_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.120336] (yolo_msgs) StderrLine: {'line': b'\n'}
+[3.120406] (yolo_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.120477] (yolo_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.120571] (yolo_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.120644] (yolo_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[3.120716] (yolo_msgs) StderrLine: {'line': b'\n'}
+[3.120801] (yolo_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[3.120872] (yolo_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.120954] (yolo_msgs) StdoutLine: {'line': b'See also "/home/nicks1811/muas_ros_workspace/build/yolo_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[3.121029] (px4_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[3.121129] (px4_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.121202] (px4_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.121273] (px4_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[3.121342] (px4_msgs) StderrLine: {'line': b'\n'}
+[3.121412] (px4_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[3.121481] (px4_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[3.121550] (px4_msgs) StderrLine: {'line': b'\n'}
+[3.121620] (px4_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[3.121689] (px4_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[3.121758] (px4_msgs) StderrLine: {'line': b'\n'}
+[3.121827] (px4_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[3.121897] (px4_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[3.121966] (px4_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[3.122035] (px4_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[3.122104] (px4_msgs) StderrLine: {'line': b'\n'}
+[3.122173] (px4_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[3.122280] (px4_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.122363] (px4_msgs) StdoutLine: {'line': b'See also "/home/nicks1811/muas_ros_workspace/build/px4_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[3.125492] (px4_msgs) CommandEnded: {'returncode': 1}
+[3.128421] (yolo_msgs) CommandEnded: {'returncode': 1}
+[3.144333] (-) TimerEvent: {}
+[3.157538] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 1}
+[3.158713] (yolo_msgs) JobEnded: {'identifier': 'yolo_msgs', 'rc': 'SIGINT'}
+[3.169318] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[3.169585] (yolo_ros) JobSkipped: {'identifier': 'yolo_ros'}
+[3.169647] (yolo_bringup) JobSkipped: {'identifier': 'yolo_bringup'}
+[3.169707] (-) EventReactorShutdown: {}

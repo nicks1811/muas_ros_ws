@@ -1,4 +1,0 @@
-Invoking command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/yolo_msgs -- -j12 -l12
-Invoked command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/yolo_msgs -- -j12 -l12
-Invoking command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/yolo_msgs
-Invoked command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/yolo_msgs

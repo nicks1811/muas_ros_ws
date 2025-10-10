@@ -1,6 +1,0 @@
-{
-  "package_name": "gnc_msgs",
-  "non_idl_tuples": [
-    "/home/nicks1811/muas_ros_workspace/src/gnc_msgs:msg/TrajectoryPoint.msg"
-  ]
-}

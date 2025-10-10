@@ -1,0 +1,442 @@
+[0.475s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.475s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x734f6df5f0d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x734f6df5ebf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x734f6df5ebf0>>, mixin_verb=('build',))
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.525s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nicks1811/muas_ros_workspace'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_msgs) by extension 'ros'
+[0.550s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['colcon_meta']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(src/px4_ros_com) by extension 'ros'
+[0.552s] DEBUG:colcon.colcon_core.package_identification:Package 'src/px4_ros_com' with type 'ros.ament_cmake' and name 'px4_ros_com'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'colcon_meta'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['ros']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'ros'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['cmake', 'python']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'cmake'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extensions ['python_setup_py']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros) by extension 'python_setup_py'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ignore_ament_install'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_pkg']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_pkg'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['colcon_meta']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'ros'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['cmake', 'python']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'cmake'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extensions ['python_setup_py']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/docs) by extension 'python_setup_py'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ignore_ament_install'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_pkg']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'colcon_pkg'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['colcon_meta']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'colcon_meta'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extensions ['ros']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_bringup) by extension 'ros'
+[0.555s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_bringup' with type 'ros.ament_cmake' and name 'yolo_bringup'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_msgs) by extension 'ros'
+[0.556s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_msgs' with type 'ros.ament_cmake' and name 'yolo_msgs'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolo_ros/yolo_ros) by extension 'ros'
+[0.558s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolo_ros/yolo_ros' with type 'ros.ament_python' and name 'yolo_ros'
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.596s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.646s] DEBUG:colcon.colcon_core.verb:Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicks1811/muas_ros_workspace/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicks1811/muas_ros_workspace/install/px4_msgs', 'merge_install': False, 'path': '/home/nicks1811/muas_ros_workspace/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.646s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'yolo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.647s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicks1811/muas_ros_workspace/build/yolo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicks1811/muas_ros_workspace/install/yolo_msgs', 'merge_install': False, 'path': '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_cache' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_clean_first' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'cmake_force_configure' from command line to 'False'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'ament_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_cmake_args' from command line to 'None'
+[0.647s] Level 5:colcon.colcon_core.verb:set package 'px4_ros_com' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.647s] DEBUG:colcon.colcon_core.verb:Building package 'px4_ros_com' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicks1811/muas_ros_workspace/build/px4_ros_com', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicks1811/muas_ros_workspace/install/px4_ros_com', 'merge_install': False, 'path': '/home/nicks1811/muas_ros_workspace/src/px4_ros_com', 'symlink_install': False, 'test_result_base': None}
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_target' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.648s] Level 5:colcon.colcon_core.verb:set package 'yolo_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.648s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicks1811/muas_ros_workspace/build/yolo_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicks1811/muas_ros_workspace/install/yolo_ros', 'merge_install': False, 'path': '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_ros', 'symlink_install': False, 'test_result_base': None}
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'yolo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.649s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicks1811/muas_ros_workspace/build/yolo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicks1811/muas_ros_workspace/install/yolo_bringup', 'merge_install': False, 'path': '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.649s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.650s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.651s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_msgs' with build type 'ament_cmake'
+[0.651s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_msgs'
+[0.655s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.655s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.655s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.659s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nicks1811/muas_ros_workspace/src/px4_msgs' with build type 'ament_cmake'
+[0.659s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nicks1811/muas_ros_workspace/src/px4_msgs'
+[0.660s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/yolo_msgs
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/px4_msgs
+[4.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_msgs -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/yolo_msgs
+[4.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/yolo_msgs -- -j16 -l16
+[7.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/px4_msgs -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/px4_msgs
+[7.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/px4_msgs -- -j16 -l16
+[17.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/yolo_msgs -- -j16 -l16
+[17.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/yolo_msgs
+[17.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_msgs)
+[17.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/yolo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/yolo_msgs
+[17.716s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs' for CMake module files
+[17.717s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs' for CMake config files
+[17.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'cmake_prefix_path')
+[17.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.ps1'
+[17.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.dsv'
+[17.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.sh'
+[17.721s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib'
+[17.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'ld_library_path_lib')
+[17.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.ps1'
+[17.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.dsv'
+[17.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.sh'
+[17.723s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/bin'
+[17.723s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib/pkgconfig/yolo_msgs.pc'
+[17.723s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib/python3.10/site-packages'
+[17.724s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/bin'
+[17.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/package.ps1'
+[17.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/package.dsv'
+[17.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/package.sh'
+[17.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/package.bash'
+[17.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/package.zsh'
+[17.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/colcon-core/packages/yolo_msgs)
+[17.730s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_msgs)
+[17.731s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs' for CMake module files
+[17.731s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs' for CMake config files
+[17.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'cmake_prefix_path')
+[17.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.ps1'
+[17.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.dsv'
+[17.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/cmake_prefix_path.sh'
+[17.734s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib'
+[17.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_msgs', 'ld_library_path_lib')
+[17.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.ps1'
+[17.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.dsv'
+[17.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/hook/ld_library_path_lib.sh'
+[17.736s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/bin'
+[17.736s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib/pkgconfig/yolo_msgs.pc'
+[17.736s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib/python3.10/site-packages'
+[17.736s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/bin'
+[17.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/package.ps1'
+[17.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/package.dsv'
+[17.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/package.sh'
+[17.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/package.bash'
+[17.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/yolo_msgs/package.zsh'
+[17.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicks1811/muas_ros_workspace/install/yolo_msgs/share/colcon-core/packages/yolo_msgs)
+[17.740s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_ros' with build type 'ament_python'
+[17.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_ros', 'ament_prefix_path')
+[17.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.ps1'
+[17.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.dsv'
+[17.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros/hook/ament_prefix_path.sh'
+[17.746s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.746s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.202s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_ros'
+[18.202s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[18.202s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_ros': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages:/home/nicks1811/muas_ros_workspace/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/nicks1811/muas_ros_workspace/build/yolo_ros/build install --record /home/nicks1811/muas_ros_workspace/build/yolo_ros/install.log --single-version-externally-managed install_data
+[17.827s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_ros' for CMake module files
+[17.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_ros' returned '0': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/build/yolo_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages:/home/nicks1811/muas_ros_workspace/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/yolo_ros build --build-base /home/nicks1811/muas_ros_workspace/build/yolo_ros/build install --record /home/nicks1811/muas_ros_workspace/build/yolo_ros/install.log --single-version-externally-managed install_data
+[17.828s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_ros' for CMake config files
+[17.828s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib'
+[17.829s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_ros/bin'
+[17.829s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/pkgconfig/yolo_ros.pc'
+[17.829s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages'
+[17.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_ros', 'pythonpath')
+[17.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros/hook/pythonpath.ps1'
+[17.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros/hook/pythonpath.dsv'
+[17.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros/hook/pythonpath.sh'
+[17.831s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_ros/bin'
+[17.831s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_ros)
+[17.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros/package.ps1'
+[17.832s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros/package.dsv'
+[17.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros/package.sh'
+[17.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros/package.bash'
+[17.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/yolo_ros/package.zsh'
+[17.833s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicks1811/muas_ros_workspace/install/yolo_ros/share/colcon-core/packages/yolo_ros)
+[17.835s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_bringup' with build type 'ament_cmake'
+[17.835s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_bringup'
+[17.836s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.836s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[18.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/yolo_bringup': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros:/home/nicks1811/muas_ros_workspace/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages:/home/nicks1811/muas_ros_workspace/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_bringup -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/yolo_bringup
+[21.255s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/yolo_bringup' returned '0': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros:/home/nicks1811/muas_ros_workspace/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages:/home/nicks1811/muas_ros_workspace/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/yolo_ros/yolo_bringup -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/yolo_bringup
+[21.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/yolo_bringup': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros:/home/nicks1811/muas_ros_workspace/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages:/home/nicks1811/muas_ros_workspace/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/yolo_bringup -- -j16 -l16
+[21.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/yolo_bringup' returned '0': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros:/home/nicks1811/muas_ros_workspace/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages:/home/nicks1811/muas_ros_workspace/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/yolo_bringup -- -j16 -l16
+[21.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/yolo_bringup': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros:/home/nicks1811/muas_ros_workspace/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages:/home/nicks1811/muas_ros_workspace/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/yolo_bringup
+[21.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_bringup)
+[21.350s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup' for CMake module files
+[21.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/yolo_bringup' returned '0': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros:/home/nicks1811/muas_ros_workspace/install/yolo_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/yolo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/yolo_ros/lib/python3.10/site-packages:/home/nicks1811/muas_ros_workspace/install/yolo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/yolo_bringup
+[21.352s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup' for CMake config files
+[21.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_bringup', 'cmake_prefix_path')
+[21.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.ps1'
+[21.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.dsv'
+[21.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.sh'
+[21.355s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/bin'
+[21.355s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/lib/pkgconfig/yolo_bringup.pc'
+[21.355s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/lib/python3.10/site-packages'
+[21.355s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/bin'
+[21.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/package.ps1'
+[21.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/package.dsv'
+[21.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/package.sh'
+[21.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/package.bash'
+[21.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/package.zsh'
+[21.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/colcon-core/packages/yolo_bringup)
+[21.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_bringup)
+[21.360s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup' for CMake module files
+[21.361s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup' for CMake config files
+[21.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_bringup', 'cmake_prefix_path')
+[21.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.ps1'
+[21.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.dsv'
+[21.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/hook/cmake_prefix_path.sh'
+[21.363s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/bin'
+[21.363s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/lib/pkgconfig/yolo_bringup.pc'
+[21.363s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/lib/python3.10/site-packages'
+[21.363s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/bin'
+[21.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/package.ps1'
+[21.364s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/package.dsv'
+[21.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/package.sh'
+[21.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/package.bash'
+[21.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/yolo_bringup/package.zsh'
+[21.366s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicks1811/muas_ros_workspace/install/yolo_bringup/share/colcon-core/packages/yolo_bringup)
+[320.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/px4_msgs -- -j16 -l16
+[320.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/px4_msgs
+[323.325s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[323.325s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs' for CMake module files
+[323.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/px4_msgs
+[323.327s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs' for CMake config files
+[323.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[323.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[323.336s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[323.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[323.337s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib'
+[323.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[323.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[323.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[323.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[323.339s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs/bin'
+[323.339s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[323.339s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib/python3.10/site-packages'
+[323.340s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs/bin'
+[323.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/package.ps1'
+[323.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/package.dsv'
+[323.341s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/package.sh'
+[323.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/package.bash'
+[323.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/package.zsh'
+[323.343s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[323.344s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_msgs)
+[323.344s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs' for CMake module files
+[323.345s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs' for CMake config files
+[323.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[323.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[323.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[323.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[323.354s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib'
+[323.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[323.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[323.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[323.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[323.356s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs/bin'
+[323.356s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[323.356s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib/python3.10/site-packages'
+[323.357s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_msgs/bin'
+[323.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/package.ps1'
+[323.358s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/package.dsv'
+[323.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/package.sh'
+[323.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/package.bash'
+[323.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/px4_msgs/package.zsh'
+[323.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicks1811/muas_ros_workspace/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[323.361s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nicks1811/muas_ros_workspace/src/px4_ros_com' with build type 'ament_cmake'
+[323.361s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nicks1811/muas_ros_workspace/src/px4_ros_com'
+[323.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[323.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[323.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/px4_ros_com': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/px4_ros_com
+[338.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nicks1811/muas_ros_workspace/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/nicks1811/muas_ros_workspace/install/px4_ros_com
+[338.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/px4_ros_com': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/px4_ros_com -- -j16 -l16
+[380.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nicks1811/muas_ros_workspace/build/px4_ros_com -- -j16 -l16
+[381.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicks1811/muas_ros_workspace/build/px4_ros_com': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/px4_ros_com
+[381.828s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[381.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicks1811/muas_ros_workspace/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nicks1811/muas_ros_workspace/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nicks1811/muas_ros_workspace/build/px4_ros_com
+[382.025s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com' for CMake module files
+[382.115s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com' for CMake config files
+[382.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[382.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[382.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[382.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[382.882s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/lib'
+[382.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[382.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[382.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[382.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[383.072s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/bin'
+[383.072s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[383.270s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/lib/python3.10/site-packages'
+[383.271s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/bin'
+[383.272s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[383.326s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[383.327s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/package.sh'
+[383.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/package.bash'
+[383.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[383.574s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[383.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(px4_ros_com)
+[383.578s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com' for CMake module files
+[383.579s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com' for CMake config files
+[383.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'cmake_prefix_path')
+[383.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.ps1'
+[383.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.dsv'
+[383.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/cmake_prefix_path.sh'
+[383.584s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/lib'
+[383.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('px4_ros_com', 'ld_library_path_lib')
+[383.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.ps1'
+[383.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.dsv'
+[383.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/hook/ld_library_path_lib.sh'
+[383.586s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/bin'
+[383.586s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/lib/pkgconfig/px4_ros_com.pc'
+[383.586s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/lib/python3.10/site-packages'
+[383.586s] Level 1:colcon.colcon_core.environment:checking '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/bin'
+[383.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/package.ps1'
+[383.588s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/package.dsv'
+[383.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/package.sh'
+[383.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/package.bash'
+[383.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/px4_ros_com/package.zsh'
+[383.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicks1811/muas_ros_workspace/install/px4_ros_com/share/colcon-core/packages/px4_ros_com)
+[384.063s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[382.308s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[382.471s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[382.496s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[383.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[383.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[383.849s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[383.850s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[383.851s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[383.931s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[383.982s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicks1811/muas_ros_workspace/install/local_setup.ps1'
+[384.070s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nicks1811/muas_ros_workspace/install/_local_setup_util_ps1.py'
+[384.180s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicks1811/muas_ros_workspace/install/setup.ps1'
+[384.507s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicks1811/muas_ros_workspace/install/local_setup.sh'
+[384.508s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nicks1811/muas_ros_workspace/install/_local_setup_util_sh.py'
+[384.509s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicks1811/muas_ros_workspace/install/setup.sh'
+[384.510s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicks1811/muas_ros_workspace/install/local_setup.bash'
+[384.511s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicks1811/muas_ros_workspace/install/setup.bash'
+[384.513s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicks1811/muas_ros_workspace/install/local_setup.zsh'
+[384.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicks1811/muas_ros_workspace/install/setup.zsh'
